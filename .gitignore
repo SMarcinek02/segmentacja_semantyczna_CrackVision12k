@@ -221,3 +221,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# checkpointy modeli (6 plików po ~50 MB) – nie wrzucamy
+results/checkpoints/
+*.pth
+
+# pliki tymczasowe
+.ipynb_checkpoints/
+__pycache__/
